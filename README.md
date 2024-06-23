@@ -20,3 +20,7 @@ A function that takes an array of int and return it without the middle value(s).
 
 ![Remove Middle Value Whiteboard](./whiteboard-challenges/RemoveMiddleValue.PNG)
 
+### Challenge 05: Insert Middle Value
+A function that takes an array of int with a value to insert and return it with the value inserted at the middle of the array.  
+
+![Remove Middle Value Whiteboard](./whiteboard-challenges/InsertMiddleValue.PNG)
