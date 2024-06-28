@@ -24,3 +24,8 @@ A function that takes an array of int and return it without the middle value(s).
 A function that takes an array of int with a value to insert and return it with the value inserted at the middle of the array.  
 
 ![Remove Middle Value Whiteboard](./whiteboard-challenges/InsertMiddleValue.PNG)
+
+### Challenge 06: Find Duplicates
+A function that takes an array of int and find the duplicates values in it then return them in an array of int. 
+
+![Find Duplicates Challenge](./Challenges/Find-Duplicates/FindDuplicates.PNG)
