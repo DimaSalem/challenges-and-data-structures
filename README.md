@@ -29,3 +29,8 @@ A function that takes an array of int with a value to insert and return it with 
 A function that takes an array of int and find the duplicates values in it then return them in an array of int. 
 
 ![Find Duplicates Challenge](./Challenges/Find-Duplicates/FindDuplicates.PNG)
+
+### Challenge 06: Find Common Elements
+A function that takes two array of int and find the common elements between them then return those elements in array of int.
+
+![Common Elements Challenge](https://github.com/DimaSalem/challenges-and-data-structures/assets/165784854/9ec37c55-d13a-4ca8-a64c-9c797d07ae7e)
