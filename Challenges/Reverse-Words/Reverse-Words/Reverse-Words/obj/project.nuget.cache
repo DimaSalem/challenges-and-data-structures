@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "XXEJNqUFpA8=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\LTUC\\Desktop\\dotnet-401d3\\challenges-and-data-structures\\Challenges\\Reverse-Words\\Reverse-Words\\Reverse-Words\\Reverse-Words.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\LTUC\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.19\\microsoft.windowsdesktop.app.ref.7.0.19.nupkg.sha512",
+    "C:\\Users\\LTUC\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.19\\microsoft.netcore.app.ref.7.0.19.nupkg.sha512",
+    "C:\\Users\\LTUC\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.19\\microsoft.aspnetcore.app.ref.7.0.19.nupkg.sha512",
+    "C:\\Users\\LTUC\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.19\\microsoft.netcore.app.host.win-x64.7.0.19.nupkg.sha512"
+  ],
+  "logs": []
+}

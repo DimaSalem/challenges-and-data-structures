@@ -34,3 +34,8 @@ A function that takes an array of int and find the duplicates values in it then 
 A function that takes two array of int and find the common elements between them then return those elements in array of int.
 
 ![Common Elements Challenge](https://github.com/DimaSalem/challenges-and-data-structures/assets/165784854/9ec37c55-d13a-4ca8-a64c-9c797d07ae7e)
+
+### Challenge 07: Reverse Words
+A function that takes a string and reverse the words in it then return a string with the reversed words.
+
+![Reverse Words](./Challenges/Reverse-Words/ReverseWords.PNG)
