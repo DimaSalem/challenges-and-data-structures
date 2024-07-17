@@ -44,3 +44,8 @@ A function that takes a string and reverse the words in it then return a string 
 Implement a basic singly linked list data structure in C#. with Node class and LinkedList class, which contain method to Add to list, remove a specific data from the list, check if the data is in the list, and to print the list. 
 
 ![LinkedList Implementation](./Challenges/Data-Structures/LinkedList/LinkedListImplementationWhiteboard.jpg)
+
+### Challenge 09: Remove Duplicate from the linkedlist 
+A method to remove a duplicate values from the linked list. 
+![Remove Duplicate](./Challenges/Data-Structures/LinkedList/RemoveDuplicateWhiteboard.jpg)
+![Console Output](./Challenges/Data-Structures/LinkedList/RemoveDuplicatesConsoleOutput.PNG)
