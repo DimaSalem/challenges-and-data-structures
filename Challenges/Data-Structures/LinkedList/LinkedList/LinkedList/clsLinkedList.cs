@@ -75,6 +75,24 @@ namespace LinkedList
             list += "Null";
             return list;
         }
+        public void RemoveDuplicate()
+        {
+            Node current= head;
+            while(current != null)
+            {
+                Node index = current.Next;
+                Node preIndex = current;
+                while (index != null)
+                {
+                    if (index.Data == current.Data)
+                        preIndex.Next = index.Next;
+                    else
+                        preIndex = index;
 
+                    index = index.Next;
+                }
+                current= current.Next;
+            }
+        }
     }
 }

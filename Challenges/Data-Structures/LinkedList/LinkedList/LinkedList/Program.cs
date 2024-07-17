@@ -6,10 +6,12 @@
         {
             clsLinkedList linkedlist1= new clsLinkedList();
 
-            linkedlist1.Add(5);
-            //linkedlist1.Add(10);
-            //linkedlist1.Add(20);
-            //linkedlist1.Add(30);
+            linkedlist1.Add(1);
+            linkedlist1.Add(2);
+            linkedlist1.Add(3);
+            linkedlist1.Add(2);
+            linkedlist1.Add(4);
+            linkedlist1.Add(3);
 
             Console.WriteLine(linkedlist1.PrintList());
             
@@ -19,12 +21,14 @@
             //else
             //    Console.WriteLine("value is not found");
 
-            if (linkedlist1.Remove(5))
-                Console.WriteLine("Value Removed Successfuly");
-            else
-                Console.WriteLine("Remove Faild");
+            //if (linkedlist1.Remove(5))
+            //    Console.WriteLine("Value Removed Successfuly");
+            //else
+            //    Console.WriteLine("Remove Faild");
 
-            //linkedlist1.PrintList();
+            linkedlist1.RemoveDuplicate();
+            Console.WriteLine("After remove duplicate values");
+            Console.WriteLine(linkedlist1.PrintList());
 
         }
     }
