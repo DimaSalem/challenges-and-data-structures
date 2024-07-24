@@ -36,16 +36,10 @@ A function that takes two array of int and find the common elements between them
 ![Common Elements Challenge](https://github.com/DimaSalem/challenges-and-data-structures/assets/165784854/9ec37c55-d13a-4ca8-a64c-9c797d07ae7e)
 
 ### Challenge 07: Reverse Words
-A function that takes a string and reverse the words in it then return a string with the reversed words.
-
-![Reverse Words](./Challenges/Reverse-Words/ReverseWords.PNG)
+[Reverse Words](./Challenges/Reverse-Words/Readme.md)
 
 ### Challenge 08: LinkedList Implementation 
-Implement a basic singly linked list data structure in C#. with Node class and LinkedList class, which contain method to Add to list, remove a specific data from the list, check if the data is in the list, and to print the list. 
-
-![LinkedList Implementation](./Challenges/Data-Structures/LinkedList/LinkedListImplementationWhiteboard.jpg)
+[LinkedList Implementation](./Challenges/Data-Structures/LinkedList/README.md)
 
 ### Challenge 09: Remove Duplicate from the linkedlist 
-A method to remove a duplicate values from the linked list. 
-![Remove Duplicate](./Challenges/Data-Structures/LinkedList/RemoveDuplicateWhiteboard.jpg)
-![Console Output](./Challenges/Data-Structures/LinkedList/RemoveDuplicatesConsoleOutput.PNG)
+[Remove Duplicate](./Challenges/Data-Structures/LinkedList/README.md)
