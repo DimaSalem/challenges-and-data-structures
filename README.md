@@ -43,3 +43,6 @@ A function that takes two array of int and find the common elements between them
 
 ### Challenge 09: Remove Duplicate from the linkedlist 
 [Remove Duplicate](./Challenges/Data-Structures/LinkedList/README.md)
+
+### Challenge 10: Merge Two Sorted linkedlists 
+[Merge Sorted](./Challenges/Data-Structures/LinkedList/MergeSorted/Readme.md)
