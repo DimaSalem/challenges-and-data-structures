@@ -1,0 +1,142 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\LTUC\\Desktop\\dotnet-401d3\\challenges-and-data-structures\\Challenges\\Data-Structures\\Stack\u0026Queue\\StackAndQueue\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9FAB7168-CF17-4C37-8C33-3DEFB00FD706}|StackAndQueue\\StackAndQueue.csproj|c:\\users\\ltuc\\desktop\\dotnet-401d3\\challenges-and-data-structures\\challenges\\data-structures\\stack\u0026queue\\stackandqueue\\stackandqueue\\queue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FAB7168-CF17-4C37-8C33-3DEFB00FD706}|StackAndQueue\\StackAndQueue.csproj|solutionrelative:stackandqueue\\queue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FAB7168-CF17-4C37-8C33-3DEFB00FD706}|StackAndQueue\\StackAndQueue.csproj|c:\\users\\ltuc\\desktop\\dotnet-401d3\\challenges-and-data-structures\\challenges\\data-structures\\stack\u0026queue\\stackandqueue\\stackandqueue\\stack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FAB7168-CF17-4C37-8C33-3DEFB00FD706}|StackAndQueue\\StackAndQueue.csproj|solutionrelative:stackandqueue\\stack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C19B4CE0-C3E9-4D2F-80F7-45AE4B7B6F81}|StackAndQueueTests\\StackAndQueueTests.csproj|c:\\users\\ltuc\\desktop\\dotnet-401d3\\challenges-and-data-structures\\challenges\\data-structures\\stack\u0026queue\\stackandqueue\\stackandqueuetests\\queuetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C19B4CE0-C3E9-4D2F-80F7-45AE4B7B6F81}|StackAndQueueTests\\StackAndQueueTests.csproj|solutionrelative:stackandqueuetests\\queuetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FAB7168-CF17-4C37-8C33-3DEFB00FD706}|StackAndQueue\\StackAndQueue.csproj|c:\\users\\ltuc\\desktop\\dotnet-401d3\\challenges-and-data-structures\\challenges\\data-structures\\stack\u0026queue\\stackandqueue\\stackandqueue\\node.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FAB7168-CF17-4C37-8C33-3DEFB00FD706}|StackAndQueue\\StackAndQueue.csproj|solutionrelative:stackandqueue\\node.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C19B4CE0-C3E9-4D2F-80F7-45AE4B7B6F81}|StackAndQueueTests\\StackAndQueueTests.csproj|c:\\users\\ltuc\\desktop\\dotnet-401d3\\challenges-and-data-structures\\challenges\\data-structures\\stack\u0026queue\\stackandqueue\\stackandqueuetests\\stacktests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C19B4CE0-C3E9-4D2F-80F7-45AE4B7B6F81}|StackAndQueueTests\\StackAndQueueTests.csproj|solutionrelative:stackandqueuetests\\stacktests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FAB7168-CF17-4C37-8C33-3DEFB00FD706}|StackAndQueue\\StackAndQueue.csproj|c:\\users\\ltuc\\desktop\\dotnet-401d3\\challenges-and-data-structures\\challenges\\data-structures\\stack\u0026queue\\stackandqueue\\stackandqueue\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FAB7168-CF17-4C37-8C33-3DEFB00FD706}|StackAndQueue\\StackAndQueue.csproj|solutionrelative:stackandqueue\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "QueueTests.cs",
+              "DocumentMoniker": "C:\\Users\\LTUC\\Desktop\\dotnet-401d3\\challenges-and-data-structures\\Challenges\\Data-Structures\\Stack\u0026Queue\\StackAndQueue\\StackAndQueueTests\\QueueTests.cs",
+              "RelativeDocumentMoniker": "StackAndQueueTests\\QueueTests.cs",
+              "ToolTip": "C:\\Users\\LTUC\\Desktop\\dotnet-401d3\\challenges-and-data-structures\\Challenges\\Data-Structures\\Stack\u0026Queue\\StackAndQueue\\StackAndQueueTests\\QueueTests.cs",
+              "RelativeToolTip": "StackAndQueueTests\\QueueTests.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T22:52:03.087Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\LTUC\\Desktop\\dotnet-401d3\\challenges-and-data-structures\\Challenges\\Data-Structures\\Stack\u0026Queue\\StackAndQueue\\StackAndQueue\\Program.cs",
+              "RelativeDocumentMoniker": "StackAndQueue\\Program.cs",
+              "ToolTip": "C:\\Users\\LTUC\\Desktop\\dotnet-401d3\\challenges-and-data-structures\\Challenges\\Data-Structures\\Stack\u0026Queue\\StackAndQueue\\StackAndQueue\\Program.cs",
+              "RelativeToolTip": "StackAndQueue\\Program.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAQwB8AAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T09:24:35.698Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StackTests.cs",
+              "DocumentMoniker": "C:\\Users\\LTUC\\Desktop\\dotnet-401d3\\challenges-and-data-structures\\Challenges\\Data-Structures\\Stack\u0026Queue\\StackAndQueue\\StackAndQueueTests\\StackTests.cs",
+              "RelativeDocumentMoniker": "StackAndQueueTests\\StackTests.cs",
+              "ToolTip": "C:\\Users\\LTUC\\Desktop\\dotnet-401d3\\challenges-and-data-structures\\Challenges\\Data-Structures\\Stack\u0026Queue\\StackAndQueue\\StackAndQueueTests\\StackTests.cs",
+              "RelativeToolTip": "StackAndQueueTests\\StackTests.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T22:45:30.097Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Queue.cs",
+              "DocumentMoniker": "C:\\Users\\LTUC\\Desktop\\dotnet-401d3\\challenges-and-data-structures\\Challenges\\Data-Structures\\Stack\u0026Queue\\StackAndQueue\\StackAndQueue\\Queue.cs",
+              "RelativeDocumentMoniker": "StackAndQueue\\Queue.cs",
+              "ToolTip": "C:\\Users\\LTUC\\Desktop\\dotnet-401d3\\challenges-and-data-structures\\Challenges\\Data-Structures\\Stack\u0026Queue\\StackAndQueue\\StackAndQueue\\Queue.cs",
+              "RelativeToolTip": "StackAndQueue\\Queue.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAB8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T22:20:22.116Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Stack.cs",
+              "DocumentMoniker": "C:\\Users\\LTUC\\Desktop\\dotnet-401d3\\challenges-and-data-structures\\Challenges\\Data-Structures\\Stack\u0026Queue\\StackAndQueue\\StackAndQueue\\Stack.cs",
+              "RelativeDocumentMoniker": "StackAndQueue\\Stack.cs",
+              "ToolTip": "C:\\Users\\LTUC\\Desktop\\dotnet-401d3\\challenges-and-data-structures\\Challenges\\Data-Structures\\Stack\u0026Queue\\StackAndQueue\\StackAndQueue\\Stack.cs",
+              "RelativeToolTip": "StackAndQueue\\Stack.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAC8AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T21:49:58.082Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Node.cs",
+              "DocumentMoniker": "C:\\Users\\LTUC\\Desktop\\dotnet-401d3\\challenges-and-data-structures\\Challenges\\Data-Structures\\Stack\u0026Queue\\StackAndQueue\\StackAndQueue\\Node.cs",
+              "RelativeDocumentMoniker": "StackAndQueue\\Node.cs",
+              "ToolTip": "C:\\Users\\LTUC\\Desktop\\dotnet-401d3\\challenges-and-data-structures\\Challenges\\Data-Structures\\Stack\u0026Queue\\StackAndQueue\\StackAndQueue\\Node.cs",
+              "RelativeToolTip": "StackAndQueue\\Node.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T21:48:17.603Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
