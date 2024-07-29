@@ -10,7 +10,7 @@ namespace LinkedList
     {
         private Node? head;
         private Node? tail;
-
+        public int Count {set; get;}
         public void Add(int Data)
         {
             Node newNode = new Node();
@@ -25,6 +25,11 @@ namespace LinkedList
                 tail.Next = newNode;
                 tail= newNode;
             }
+            Count++;
+        }
+        public Node Top()
+        {
+            return head;
         }
         public bool Includes(int data)
         {
@@ -59,6 +64,7 @@ namespace LinkedList
                         current = current.Next;
                     }
                 }
+                Count--;
             }
            return false;
         }
@@ -94,5 +100,40 @@ namespace LinkedList
                 current= current.Next;
             }
         }
+        static public clsLinkedList MergeSortedLists(clsLinkedList list1, clsLinkedList list2)
+        {
+            clsLinkedList mergedList = new clsLinkedList();
+            Node current1 = list1.Top();
+            Node current2 = list2.Top();
+
+            while (current1 != null && current2 != null)
+            {
+                if (current1.Data <= current2.Data)
+                {
+                    mergedList.Add(current1.Data);
+                    current1 = current1.Next;
+                }
+                else
+                {
+                    mergedList.Add(current2.Data);
+                    current2 = current2.Next;
+                }
+            }
+
+            while (current1 != null)
+            {
+                mergedList.Add(current1.Data);
+                current1 = current1.Next;
+            }
+
+            while (current2 != null)
+            {
+                mergedList.Add(current2.Data);
+                current2 = current2.Next;
+            }
+
+            return mergedList;
+        }
     }
 }
+
