@@ -8,7 +8,7 @@ namespace StackAndQueue
 {
     public class Stack
     {
-        private Node? top;
+        protected Node? top;
         public void Push(int data)
         {
             Node newNode = new Node(data);
@@ -45,5 +45,6 @@ namespace StackAndQueue
             stack += "Null";
             return stack;
         }
+
     }
 }

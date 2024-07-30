@@ -49,3 +49,6 @@ A function that takes two array of int and find the common elements between them
 
 ### Challenge 11: Stack And Queue Implementation 
 [Stack And Queue Implementation](./Challenges/Data-Structures/Stack&Queue/README.md)
+
+### Challenge 12: Reverse Stack Using Queue
+[Reverse Stack Using Queue](./Challenges/Data-Structures/Stack&Queue/ReverseStackUsingQueue/README.md)
