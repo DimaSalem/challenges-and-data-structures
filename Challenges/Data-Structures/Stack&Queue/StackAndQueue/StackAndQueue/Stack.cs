@@ -9,11 +9,13 @@ namespace StackAndQueue
     public class Stack
     {
         protected Node? top;
+        public int Count { get; set; }
         public void Push(int data)
         {
             Node newNode = new Node(data);
             newNode.Next = top;
             top = newNode;
+            Count++;
         }
         public int Pop()
         {
@@ -21,6 +23,8 @@ namespace StackAndQueue
                 throw new Exception("Stack is Empty");
             int data = top.Data;
             top = top.Next;
+
+            if (Count != 0) Count--;
             return data;
         }
         public bool IsEmpty()
