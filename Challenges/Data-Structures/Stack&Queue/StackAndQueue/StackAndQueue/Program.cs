@@ -49,22 +49,40 @@
             //Console.WriteLine("isEmpty= " + isEmptyQueue);
 
 
-            StackWithReverse stack = new StackWithReverse();
-            stack.Push(1);
-            stack.Push(2);
-            stack.Push(3);
-            stack.Push(4);
-            stack.Push(5);
+            //StackWithReverse stack = new StackWithReverse();
+            //stack.Push(1);
+            //stack.Push(2);
+            //stack.Push(3);
+            //stack.Push(4);
+            //stack.Push(5);
 
-            Console.WriteLine("stack before reverse: " + stack.PrintStack());
-            stack.ReverseStack();
-            Console.WriteLine("stack after reverse: " + stack.PrintStack());
-            stack.Push(6);
+            //Console.WriteLine("stack before reverse: " + stack.PrintStack());
+            //stack.ReverseStack();
+            //Console.WriteLine("stack after reverse: " + stack.PrintStack());
+            //stack.Push(6);
+            //stack.Push(7);
+            //Console.WriteLine("stack before second reverse: " + stack.PrintStack());
+            //stack.ReverseStack();
+            //Console.WriteLine("stack after second reverse: " + stack.PrintStack());
+
+
+            StackWithDeleteMiddle stack = new StackWithDeleteMiddle();
             stack.Push(7);
-            Console.WriteLine("stack before second reverse: " + stack.PrintStack());
-            stack.ReverseStack();
-            Console.WriteLine("stack after second reverse: " + stack.PrintStack());
+            //stack.Push(14);
+            //stack.Push(3);
+            //stack.Push(8);
+            //stack.Push(5);
 
+            Console.WriteLine(stack.PrintStack()); // Stack: Top -> 5 -> 8 -> 3 -> 14 -> 7
+            stack.DeleteMiddle();
+            Console.WriteLine(stack.PrintStack()); // Stack: Top -> 5 -> 8 -> 14 -> 7
+
+            stack.Push(2);
+            stack.Push(9);
+            stack.Push(11);
+            Console.WriteLine(stack.PrintStack()); // Stack: Top -> 11 -> 9 -> 2 -> 5 -> 8 -> 14 -> 7
+            stack.DeleteMiddle();
+            Console.WriteLine(stack.PrintStack()); // Stack: Top -> 11 -> 9 -> 2 -> 8 -> 14 -> 7
 
         }
     }

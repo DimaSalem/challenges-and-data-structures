@@ -52,3 +52,6 @@ A function that takes two array of int and find the common elements between them
 
 ### Challenge 12: Reverse Stack Using Queue
 [Reverse Stack Using Queue](./Challenges/Data-Structures/Stack&Queue/ReverseStackUsingQueue/README.md)
+
+### Challenge 13: Delete Middle Element from Stack
+[Delete Middle Element from Stack](./Challenges/Data-Structures/Stack&Queue/DeleteMiddleElement/README.md)
