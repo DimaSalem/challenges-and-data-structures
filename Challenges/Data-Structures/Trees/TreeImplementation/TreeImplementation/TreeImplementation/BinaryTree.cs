@@ -4,11 +4,7 @@ namespace TreeImplementation
 {
     public class BinaryTree
     {
-        protected Node root;
-        public BinaryTree(int value)
-        {
-            root = new Node(value);
-        }
+        public Node Root {  get; set; }
 
         private void _PreOrderHelper(Node node, List<int> result)
         {
@@ -20,7 +16,7 @@ namespace TreeImplementation
         public List<int> PreOrder()
         {
             var result = new List<int>();
-            _PreOrderHelper(root, result);
+            _PreOrderHelper(Root, result);
             return result;
         }
 
@@ -34,7 +30,7 @@ namespace TreeImplementation
         public List<int> InOrder()
         {
             var result = new List<int>();
-            _InOrderHelper(root, result);
+            _InOrderHelper(Root, result);
             return result;
         }
 
@@ -48,8 +44,22 @@ namespace TreeImplementation
         public List<int> PostOrder()
         {
             var result = new List<int>();
-            _PostOrderHelper(root, result);
+            _PostOrderHelper(Root, result);
             return result;
+        }
+
+        private void _MirrorHelper(Node node)
+        {
+            if(node == null) return;
+            Node temp= node.Right;
+            node.Right = node.Left;
+            node.Left = temp;
+            _MirrorHelper(node.Right);
+            _MirrorHelper(node.Left);
+        }
+        public void Mirror()
+        {
+            _MirrorHelper(Root);
         }
     }
 }

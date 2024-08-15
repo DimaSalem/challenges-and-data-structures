@@ -77,3 +77,7 @@ A function that takes two array of int and find the common elements between them
 ## Challenge 15: Tree Implementation
 
 [Tree Implementation](./Challenges/Data-Structures/Trees/TreeImplementation/README.md)
+
+## Challenge 16: Mirror Tree
+
+[Mirror Tree](./Challenges/Data-Structures/Trees/MirrorTree/README.md)
