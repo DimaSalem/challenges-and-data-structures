@@ -9,9 +9,9 @@ namespace TreeImplementation
 {
     public class BinarySearchTree:BinaryTree
     {
-        public BinarySearchTree(int value): base(value) 
+        public BinarySearchTree(int value)
         {
-            
+            Root= new Node(value);
         }
         private void _AddHelper(Node node, int value)
         {
@@ -32,7 +32,7 @@ namespace TreeImplementation
         }
         public void Add(int value)
         {
-            _AddHelper(root, value);
+            _AddHelper(Root, value);
         }
 
         private bool _ContainsHelper(Node node, int value)
@@ -47,9 +47,8 @@ namespace TreeImplementation
         }
         public bool Contains(int value)
         { 
-           return _ContainsHelper(root, value);
+           return _ContainsHelper(Root, value);
         }
-
         private int _GetMax(Node node)
         {
             if(node.Right==null)
@@ -82,10 +81,9 @@ namespace TreeImplementation
             return node;
              
          }
-
         public void Remove(int value)
         {
-            root= _RemoveHelper(root, value);
+            Root= _RemoveHelper(Root, value);
         }
     }
 }
