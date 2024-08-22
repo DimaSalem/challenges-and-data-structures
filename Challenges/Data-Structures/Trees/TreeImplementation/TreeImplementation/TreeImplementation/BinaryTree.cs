@@ -61,5 +61,46 @@ namespace TreeImplementation
         {
             _MirrorHelper(Root);
         }
+
+        class MaxValues
+        {
+            public int Max { get; set; }
+            public int SecondMax { get; set; }
+        }
+        private int _FindSecondMaxHelper(ref int max, ref int secondMax, Node node)
+        {
+            if (node != null)
+            {
+
+                if (node.Right != null)
+                {
+                    if (node.Right.Data > max)
+                    {
+                        secondMax = max;
+                        max = node.Right.Data;
+                    }
+                }
+                if (node.Left != null)
+                {
+                    if (node.Left.Data > max)
+                    {
+                        secondMax = max;
+                        max = node.Left.Data;
+                    }
+                }
+                _FindSecondMaxHelper(ref max, ref secondMax, node.Right); 
+                _FindSecondMaxHelper(ref max, ref secondMax, node.Left);
+            }
+            return secondMax;
+
+        }
+        public int FindSecondMax()
+        {
+            MaxValues maxValues = new MaxValues();
+            int max = Root.Data, secondMax = 0;
+            return _FindSecondMaxHelper(ref max, ref secondMax, Root);
+        }
+
+
     }
 }
