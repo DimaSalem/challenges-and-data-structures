@@ -81,3 +81,7 @@ A function that takes two array of int and find the common elements between them
 ## Challenge 16: Mirror Tree
 
 [Mirror Tree](./Challenges/Data-Structures/Trees/MirrorTree/README.md)
+
+## Challenge 16: Second Max Value in a Tree
+
+[Second Max Value in a Tree](./Challenges/Data-Structures/Trees/SecondMaxValue/README.md)
