@@ -101,6 +101,22 @@ namespace TreeImplementation
             return _FindSecondMaxHelper(ref max, ref secondMax, Root);
         }
 
+        private int _SumOfLeafNodesHelper(Node node)
+        {
+            if (node != null)
+            {
+                if (node.Right == null && node.Left == null)
+                    return node.Data;
+
+                return _SumOfLeafNodesHelper(node.Right) + _SumOfLeafNodesHelper(node.Left);                
+            }
+            return 0;                      
+        }
+
+        public int SumOfLeafNodes()
+        {
+            return _SumOfLeafNodesHelper(Root);
+        }
 
     }
 }

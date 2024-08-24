@@ -85,3 +85,7 @@ A function that takes two array of int and find the common elements between them
 ## Challenge 16: Second Max Value in a Tree
 
 [Second Max Value in a Tree](./Challenges/Data-Structures/Trees/SecondMaxValue/README.md)
+
+## Challenge 17: Sum Of Leaf Nodes
+
+[Sum Of Leaf Nodes](./Challenges/Data-Structures/Trees/LeafSum/README.md)
