@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Collections.Specialized;
 
 namespace TreeImplementation
 {
@@ -61,12 +62,6 @@ namespace TreeImplementation
         {
             _MirrorHelper(Root);
         }
-
-        class MaxValues
-        {
-            public int Max { get; set; }
-            public int SecondMax { get; set; }
-        }
         private int _FindSecondMaxHelper(ref int max, ref int secondMax, Node node)
         {
             if (node != null)
@@ -96,11 +91,9 @@ namespace TreeImplementation
         }
         public int FindSecondMax()
         {
-            MaxValues maxValues = new MaxValues();
             int max = Root.Data, secondMax = 0;
             return _FindSecondMaxHelper(ref max, ref secondMax, Root);
         }
-
         private int _SumOfLeafNodesHelper(Node node)
         {
             if (node != null)
@@ -112,10 +105,69 @@ namespace TreeImplementation
             }
             return 0;                      
         }
-
         public int SumOfLeafNodes()
         {
             return _SumOfLeafNodesHelper(Root);
+        }
+
+
+        /*
+               5
+             /   \
+            13    7
+           / \   / \
+          3   7 12  20
+         / \     \
+        1   4     11
+
+        */
+
+        public int FindMaxValueInQueue(Queue<Node> queue)
+        {
+            if (queue == null || queue.Count == 0)
+            {
+                return 0;
+            }
+
+            int maxValue = int.MinValue;
+
+            foreach (var node in queue)
+            {
+                if (node.Data > maxValue)
+                {
+                    maxValue = node.Data;
+                }
+            }
+
+            return maxValue;
+        }
+
+
+        private void _LargesValueEachLevelHelper(Queue<Node> queue1, Queue<Node> queue2,
+            List<int> result)
+        {
+            if (queue1.Count == 0) return;
+
+            while (queue1.Count != 0)
+            {
+                Node current = queue1.Dequeue();
+                if (current.Right != null) queue2.Enqueue(current.Right);
+                if (current.Left != null) queue2.Enqueue(current.Left);            
+            }
+
+            if(queue2.Count == 0) return;
+            result.Add(FindMaxValueInQueue(queue2));
+            _LargesValueEachLevelHelper(queue2, queue1, result);
+        }
+        public List<int> LargestValueEachLevel()
+        {
+            Queue<Node> queue1 = new Queue<Node>();
+            Queue<Node> queue2 = new Queue<Node>();
+            List<int> result = new List<int>();
+            if(Root != null) result.Add(Root.Data);
+            queue1.Enqueue(Root);
+            _LargesValueEachLevelHelper(queue1, queue2, result);
+            return result;
         }
 
     }
