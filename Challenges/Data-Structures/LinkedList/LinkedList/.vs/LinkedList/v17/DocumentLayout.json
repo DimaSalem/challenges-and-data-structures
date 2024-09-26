@@ -7,16 +7,16 @@
       "RelativeMoniker": "D:0:0:{ABAFD5E0-7B67-49F4-A795-ECB058283038}|LinkedList\\LinkedList.csproj|solutionrelative:linkedlist\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{7BA7939D-9012-444D-8F4F-85C4A640B4A5}|LinkedListTest\\LinkedListTest.csproj|c:\\users\\ltuc\\desktop\\dotnet-401d3\\challenges-and-data-structures\\challenges\\data-structures\\linkedlist\\linkedlist\\linkedlisttest\\rotatelinkedlisttests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BA7939D-9012-444D-8F4F-85C4A640B4A5}|LinkedListTest\\LinkedListTest.csproj|solutionrelative:linkedlisttest\\rotatelinkedlisttests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{ABAFD5E0-7B67-49F4-A795-ECB058283038}|LinkedList\\LinkedList.csproj|c:\\users\\ltuc\\desktop\\dotnet-401d3\\challenges-and-data-structures\\challenges\\data-structures\\linkedlist\\linkedlist\\linkedlist\\clslinkedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ABAFD5E0-7B67-49F4-A795-ECB058283038}|LinkedList\\LinkedList.csproj|solutionrelative:linkedlist\\clslinkedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7BA7939D-9012-444D-8F4F-85C4A640B4A5}|LinkedListTest\\LinkedListTest.csproj|c:\\users\\ltuc\\desktop\\dotnet-401d3\\challenges-and-data-structures\\challenges\\data-structures\\linkedlist\\linkedlist\\linkedlisttest\\mergesortedlinkedlists.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7BA7939D-9012-444D-8F4F-85C4A640B4A5}|LinkedListTest\\LinkedListTest.csproj|solutionrelative:linkedlisttest\\mergesortedlinkedlists.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7BA7939D-9012-444D-8F4F-85C4A640B4A5}|LinkedListTest\\LinkedListTest.csproj|c:\\users\\ltuc\\desktop\\dotnet-401d3\\challenges-and-data-structures\\challenges\\data-structures\\linkedlist\\linkedlist\\linkedlisttest\\removeduplicatestests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7BA7939D-9012-444D-8F4F-85C4A640B4A5}|LinkedListTest\\LinkedListTest.csproj|solutionrelative:linkedlisttest\\removeduplicatestests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,11 +30,19 @@
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Bookmark",
@@ -45,46 +53,29 @@
               "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "RemoveDuplicatesTests.cs",
-              "DocumentMoniker": "C:\\Users\\LTUC\\Desktop\\dotnet-401d3\\challenges-and-data-structures\\Challenges\\Data-Structures\\LinkedList\\LinkedList\\LinkedListTest\\RemoveDuplicatesTests.cs",
-              "RelativeDocumentMoniker": "LinkedListTest\\RemoveDuplicatesTests.cs",
-              "ToolTip": "C:\\Users\\LTUC\\Desktop\\dotnet-401d3\\challenges-and-data-structures\\Challenges\\Data-Structures\\LinkedList\\LinkedList\\LinkedListTest\\RemoveDuplicatesTests.cs",
-              "RelativeToolTip": "LinkedListTest\\RemoveDuplicatesTests.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAQwB0AAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-29T08:38:33.262Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "MergeSortedLinkedLists.cs",
               "DocumentMoniker": "C:\\Users\\LTUC\\Desktop\\dotnet-401d3\\challenges-and-data-structures\\Challenges\\Data-Structures\\LinkedList\\LinkedList\\LinkedListTest\\MergeSortedLinkedLists.cs",
               "RelativeDocumentMoniker": "LinkedListTest\\MergeSortedLinkedLists.cs",
               "ToolTip": "C:\\Users\\LTUC\\Desktop\\dotnet-401d3\\challenges-and-data-structures\\Challenges\\Data-Structures\\LinkedList\\LinkedList\\LinkedListTest\\MergeSortedLinkedLists.cs",
               "RelativeToolTip": "LinkedListTest\\MergeSortedLinkedLists.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACwAAAApAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABcAAABBAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-29T08:37:08.467Z",
+              "WhenOpened": "2024-09-25T23:43:40.694Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "clsLinkedList.cs",
-              "DocumentMoniker": "C:\\Users\\LTUC\\Desktop\\dotnet-401d3\\challenges-and-data-structures\\Challenges\\Data-Structures\\LinkedList\\LinkedList\\LinkedList\\clsLinkedList.cs",
-              "RelativeDocumentMoniker": "LinkedList\\clsLinkedList.cs",
-              "ToolTip": "C:\\Users\\LTUC\\Desktop\\dotnet-401d3\\challenges-and-data-structures\\Challenges\\Data-Structures\\LinkedList\\LinkedList\\LinkedList\\clsLinkedList.cs",
-              "RelativeToolTip": "LinkedList\\clsLinkedList.cs",
-              "ViewState": "AQIAAEkAAAAAAAAAAAAMwGYAAAAAAAAA",
+              "Title": "RotateLinkedListTests.cs",
+              "DocumentMoniker": "C:\\Users\\LTUC\\Desktop\\dotnet-401d3\\challenges-and-data-structures\\Challenges\\Data-Structures\\LinkedList\\LinkedList\\LinkedListTest\\RotateLinkedListTests.cs",
+              "RelativeDocumentMoniker": "LinkedListTest\\RotateLinkedListTests.cs",
+              "ToolTip": "C:\\Users\\LTUC\\Desktop\\dotnet-401d3\\challenges-and-data-structures\\Challenges\\Data-Structures\\LinkedList\\LinkedList\\LinkedListTest\\RotateLinkedListTests.cs",
+              "RelativeToolTip": "LinkedListTest\\RotateLinkedListTests.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAQwCQAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-16T15:29:04.705Z",
+              "WhenOpened": "2024-09-25T23:43:30.024Z",
               "EditorCaption": ""
             },
             {
@@ -95,9 +86,22 @@
               "RelativeDocumentMoniker": "LinkedList\\Program.cs",
               "ToolTip": "C:\\Users\\LTUC\\Desktop\\dotnet-401d3\\challenges-and-data-structures\\Challenges\\Data-Structures\\LinkedList\\LinkedList\\LinkedList\\Program.cs",
               "RelativeToolTip": "LinkedList\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAuAAAA",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAzwBAAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-16T15:25:58.027Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "clsLinkedList.cs",
+              "DocumentMoniker": "C:\\Users\\LTUC\\Desktop\\dotnet-401d3\\challenges-and-data-structures\\Challenges\\Data-Structures\\LinkedList\\LinkedList\\LinkedList\\clsLinkedList.cs",
+              "RelativeDocumentMoniker": "LinkedList\\clsLinkedList.cs",
+              "ToolTip": "C:\\Users\\LTUC\\Desktop\\dotnet-401d3\\challenges-and-data-structures\\Challenges\\Data-Structures\\LinkedList\\LinkedList\\LinkedList\\clsLinkedList.cs",
+              "RelativeToolTip": "LinkedList\\clsLinkedList.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwIgAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T15:29:04.705Z",
               "EditorCaption": ""
             }
           ]

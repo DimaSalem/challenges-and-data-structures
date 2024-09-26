@@ -7,7 +7,7 @@ using TreeImplementation;
 
 namespace TestProject1
 {
-    public class LargeValueEachLevelHelper
+    public class LargeValueEachLevelTests
     {
         [Fact]
         public void LargestValueEachLevel_SumOfLargestValues_IsCorrect()
