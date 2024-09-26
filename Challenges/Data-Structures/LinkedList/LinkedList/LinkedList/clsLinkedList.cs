@@ -134,6 +134,24 @@ namespace LinkedList
 
             return mergedList;
         }
+        public void RotateLinkedList(int k)
+        {
+            //to improve the performance
+            if (k == Count)
+                k = 0;
+            else if (k > Count)
+                k = k - Count;
+
+            for(int i=0; i<k; i++)
+            {
+                if(head!=null)
+                {
+                    Add(head.Data);
+                    head = head.Next;
+                }
+
+            }
+        }
     }
 }
 
