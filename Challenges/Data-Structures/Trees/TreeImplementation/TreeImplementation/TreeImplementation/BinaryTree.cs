@@ -109,19 +109,6 @@ namespace TreeImplementation
         {
             return _SumOfLeafNodesHelper(Root);
         }
-
-
-        /*
-               5
-             /   \
-            13    7
-           / \   / \
-          3   7 12  20
-         / \     \
-        1   4     11
-
-        */
-
         public int FindMaxValueInQueue(Queue<Node> queue)
         {
             if (queue == null || queue.Count == 0)
@@ -141,8 +128,6 @@ namespace TreeImplementation
 
             return maxValue;
         }
-
-
         private void _LargesValueEachLevelHelper(Queue<Node> queue1, Queue<Node> queue2,
             List<int> result)
         {
@@ -170,5 +155,29 @@ namespace TreeImplementation
             return result;
         }
 
+        private void _PrintRightViewHelper(List<int> rightView, Node node)
+        {
+            if (node == null) return;
+            if(node.Right != null)
+            {
+                rightView.Add(node.Right.Data);
+                _PrintRightViewHelper(rightView, node.Right);
+            }
+            _PrintRightViewHelper(rightView, node.Left);
+        }
+        public string PrintRightView()
+        {
+            List<int> rightView = new List<int>();
+            if(Root != null)
+            {
+                rightView.Add(Root.Data);
+                _PrintRightViewHelper(rightView, Root);
+            }
+            foreach (int node in rightView)
+            {
+                Console.Write(node + " ");
+            }
+            return rightView.ToString();
+        }
     }
 }
