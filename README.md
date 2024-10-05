@@ -101,3 +101,7 @@ A function that takes two array of int and find the common elements between them
 ## Challenge 20: Print Right View
 
 [Print Right View](./Challenges/Data-Structures/Trees/RightViewPrint/README.md)
+
+## Challenge 20: Max Level Nodes
+
+[Max Level Nodes](./Challenges/Data-Structures/Trees/MaxLevelNodes/README.md)
