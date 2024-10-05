@@ -149,9 +149,12 @@ namespace TreeImplementation
             Queue<Node> queue1 = new Queue<Node>();
             Queue<Node> queue2 = new Queue<Node>();
             List<int> result = new List<int>();
-            if(Root != null) result.Add(Root.Data);
-            queue1.Enqueue(Root);
-            _LargesValueEachLevelHelper(queue1, queue2, result);
+            if (Root != null)
+            {
+                result.Add(Root.Data);
+                queue1.Enqueue(Root);
+                _LargesValueEachLevelHelper(queue1, queue2, result);
+            }
             return result;
         }
 
@@ -178,6 +181,34 @@ namespace TreeImplementation
                 Console.Write(node + " ");
             }
             return rightView.ToString();
+        }
+
+        private void _FindMaxLevelNodes(Queue<Node> parentNodes, Queue<Node> childNodes, List<int> levelNodes)
+        {
+            levelNodes.Add(parentNodes.Count());
+            while (parentNodes.Count > 0)
+            {
+                Node current = parentNodes.Dequeue();
+                if (current.Right != null) childNodes.Enqueue(current.Right);
+                if (current.Left != null) childNodes.Enqueue(current.Left);
+            }
+            if(childNodes.Count > 0) 
+                _FindMaxLevelNodes(childNodes, parentNodes, levelNodes);
+
+        }
+        public int FindMaxLevelNodes()
+        {
+            Queue<Node> parentNodes = new Queue<Node>();
+            Queue<Node> childNodes = new Queue<Node>();
+
+            List<int> levelNodes= new List<int>();
+            if(Root != null)
+            {
+                parentNodes.Enqueue(Root);
+                _FindMaxLevelNodes(parentNodes, childNodes, levelNodes);
+                return levelNodes.IndexOf(levelNodes.Max());
+            }
+            return -1; 
         }
     }
 }
