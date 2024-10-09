@@ -210,5 +210,25 @@ namespace TreeImplementation
             }
             return -1; 
         }
+
+        private void _FindMinimumDepthHelper(Node node, ref int depth, ref bool isFound)
+        {
+            if (node == null)
+            {
+                isFound = true;
+                return;
+            }
+            depth++;
+            if (!isFound) _FindMinimumDepthHelper(node.Right,ref depth, ref isFound);
+            if (!isFound) _FindMinimumDepthHelper(node.Left,ref depth, ref isFound);
+        }
+        public int FindMinimumDepth()
+        {
+            int depth = 0;
+            bool isFound = false;
+            _FindMinimumDepthHelper(Root, ref depth, ref isFound);
+            return depth;
+
+        }
     }
 }

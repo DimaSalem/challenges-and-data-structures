@@ -105,3 +105,7 @@ A function that takes two array of int and find the common elements between them
 ## Challenge 20: Max Level Nodes
 
 [Max Level Nodes](./Challenges/Data-Structures/Trees/MaxLevelNodes/README.md)
+
+## Challenge 21: Minimum Depth of Binary Tree
+
+[Minimum Depth of Binary Tree](./Challenges/Data-Structures/Trees/MinimumDepth/README.md)
