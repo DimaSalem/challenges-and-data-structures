@@ -109,3 +109,7 @@ A function that takes two array of int and find the common elements between them
 ## Challenge 21: Minimum Depth of Binary Tree
 
 [Minimum Depth of Binary Tree](./Challenges/Data-Structures/Trees/MinimumDepth/README.md)
+
+## Challenge 22: Convert Binary tree to Binary Search Tree
+
+[Convert Binary tree to Binary Search Tree](./Challenges/Data-Structures/Trees/BTreeToBST/README.md)

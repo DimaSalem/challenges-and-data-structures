@@ -60,9 +60,9 @@ namespace TreeImplementation
          {
             if (node == null) return node;
             else if (value < node.Data)
-                return _RemoveHelper(node.Left, value);
+                node.Left = _RemoveHelper(node.Left, value);
             else if (value > node.Data)
-                return _RemoveHelper(node.Right, value);
+                node.Right = _RemoveHelper(node.Right, value);
 
             else
             {

@@ -62,6 +62,7 @@ namespace TreeImplementation
         {
             _MirrorHelper(Root);
         }
+
         private int _FindSecondMaxHelper(ref int max, ref int secondMax, Node node)
         {
             if (node != null)
@@ -94,6 +95,7 @@ namespace TreeImplementation
             int max = Root.Data, secondMax = 0;
             return _FindSecondMaxHelper(ref max, ref secondMax, Root);
         }
+
         private int _SumOfLeafNodesHelper(Node node)
         {
             if (node != null)
@@ -109,6 +111,7 @@ namespace TreeImplementation
         {
             return _SumOfLeafNodesHelper(Root);
         }
+
         public int FindMaxValueInQueue(Queue<Node> queue)
         {
             if (queue == null || queue.Count == 0)
@@ -229,6 +232,19 @@ namespace TreeImplementation
             _FindMinimumDepthHelper(Root, ref depth, ref isFound);
             return depth;
 
+        }
+
+        public void ConvertToBST()
+        {
+            var result = InOrder(); 
+            var midValue= result[result.Count/2];
+            result.Remove(midValue);
+            var BST = new BinarySearchTree(midValue);
+            foreach (var item in result)
+            {
+                BST.Add(item);
+            }
+            Root= BST.Root;
         }
     }
 }
